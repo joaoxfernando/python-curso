@@ -1,5 +1,5 @@
 # Programa que calcula a área e a quantidade de tinta necessária para pintá-la.
-# Cada litro de tinta pinta 2m²
+# Cada litro de tinta pinta o equivalente a 2m²
 
 altura = int(input('Digite a altura da parede: '))
 largura = int(input('Digite a largura da parede: '))

@@ -1,5 +1,5 @@
-money = int(input('Digite um valor: '))
+money = float(input('Digite um valor em reais: R$ '))
+cotação = float(input('Digite a cotação do dólar: '))
+dolar = money/cotação
 
-dolar = money/3.27
-
-print('Você tem R$: {}\nSe quiser você pode comprar até US$: {}\nA cotação do dólar é de R$ 3,27'.format(money, dolar))
+print(f'Você tem R$: {money}\nSe quiser você pode comprar até US$: {dolar}\nA cotação do dólar é de R$ {cotação}')
