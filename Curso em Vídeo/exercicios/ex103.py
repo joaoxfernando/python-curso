@@ -7,11 +7,15 @@ não tenha sido informado corretamente
 
 def ficha(nome, gols=0):
     print('-' * 50)
-    print(f'{"Ficha do jogador "}{nome}')
-    print(f'{"Nome:"}{nome:^45}')
-    print(f'{"Gols: "}{gols:^45}')
+    print(f'O jogador {nome} fez {gols} gols.')
 
 
 nome = str(input('Digite o nome do jogador: '))
-gols = int(input(f'Digite quantos gols {nome} marcou: '))
+if nome == '':
+    nome = '<desconhecido>'
+gols = str(input(f'Digite a quantidade de gols marcados: '))
+if gols.isnumeric() == True:
+    gols = int(gols)
+else:
+    gols = 0
 ficha(nome, gols)
