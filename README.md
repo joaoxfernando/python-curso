@@ -4,4 +4,4 @@
 ### Curso de Python do Curso em Vídeo do @gustavoguanabara
 - [x] Mundo 1 - Fundamentos
 - [x] Mundo 2 - Estruturas de Controle
-- [ ] Mundo 3 - Estruturas Compostas
+- [x] Mundo 3 - Estruturas Compostas
